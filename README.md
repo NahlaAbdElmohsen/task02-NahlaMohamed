@@ -51,9 +51,9 @@ Run the notebook to generate the numbers for your copy of the data. The final ce
 ## Getting started
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-pip install pandas numpy matplotlib seaborn scikit-learn joblib jupyter
+git clone https://github.com/<NahlaAbdElmohsen>/<task02-NahlaMohamed>.git
+cd <task02-NahlaMohamed>
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 jupyter notebook iris_knn_classification.ipynb
 ```
 
@@ -77,6 +77,3 @@ Python, pandas, NumPy, Matplotlib, seaborn, scikit-learn, joblib.
 - Iris is small and easy, so these results say little about how KNN performs on harder data.
 - Possible extensions: hyperparameter search for the other models (`GridSearchCV`), distance-weighted KNN, feature selection using only the petal features, learning curves, and a small Streamlit app for live predictions.
 
-## License
-
-Add a `LICENSE` file (for example MIT) before publishing. The Iris dataset is publicly available from the UCI Machine Learning Repository.
